@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sep3forsoeg5.EditController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="856.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vialogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="876.0" layoutY="279.0" prefHeight="30.0" prefWidth="160.0" text="Bring ideas to life">
+         <font>
+            <Font name="Leelawadee UI" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" text="Edit market">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="addEditDoneBtn" layoutX="904.0" layoutY="353.0" mnemonicParsing="false" onAction="#onEditDoneButtonClick" text="Done" />
+      <Button fx:id="addEditCancelBtn" layoutX="963.0" layoutY="353.0" mnemonicParsing="false" onAction="#onEditCancelButtonClick" text="Cancel" />
+      <VBox layoutX="228.0" layoutY="47.0" prefHeight="291.0" prefWidth="174.0" spacing="30.0">
+         <children>
+            <TextField fx:id="countryNameEdit">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="marketSizeEdit">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="competitiveSituationEdit" layoutX="10.0" layoutY="36.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="economicStabilityEdit" layoutX="10.0" layoutY="61.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="politicalStabilityEdit" layoutX="10.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="inflationEdit" layoutX="10.0" layoutY="112.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children>
+      </VBox>
+      <VBox layoutX="631.0" layoutY="47.0" prefHeight="285.0" prefWidth="174.0" spacing="30.0">
+         <children>
+            <TextField fx:id="culturalDifferenceEdit">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="currentMarketShareEdit">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="productsFitEdit" layoutX="10.0" layoutY="36.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="uniquenessOfProductEdit" layoutX="10.0" layoutY="61.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="marketGrowthEdit" layoutX="10.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="needOfProductEdit" layoutX="10.0" layoutY="112.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children>
+      </VBox>
+      <Label layoutX="8.0" layoutY="47.0" text="Country" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="103.0" text="Market size" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="158.0" text="Competitive situation " AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1.0" layoutY="215.0" text="Economic stability" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="273.0" text="Political stability" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="327.0" text="Inflation" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="47.0" text="Cultural difference" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="103.0" text="Current market share" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="158.0" text="Products fit" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="215.0" text="Uniqueness of product" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="273.0" text="Market growth" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="327.0" text="Need of product" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="13.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listed in BN $ (Healthcare sector)" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="457.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Industry growth from 2015-2020 in %" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Good, medium, bad) rated by passport" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="11.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GDP per capita in $ per 2021" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="9.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranking by Marketline out of 100" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="10.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In % by 2022" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="458.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cultural distance from Home market &#10;measured in points" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="455.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(High, medium, low)&#10;" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="459.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount of diabled people&#10;(high, medium, low)" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="458.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lifts (large, medium, small)&#10;" AnchorPane.leftAnchor="459.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="459.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="People above 65 years old&#10;(high, medium, low)">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
