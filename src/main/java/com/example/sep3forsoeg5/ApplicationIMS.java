@@ -1,5 +1,5 @@
 package com.example.sep3forsoeg5;
-
+//Teststring --- STR
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
